@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> CSS </title>
+<meta charset="UTF-8">
+
+</head>
+<body>
+<script>
+var StudentDetails = {
+        "name" : "sreevani",
+		"dob" : "27-8-1993",
+		 "skills" : "HTML5,CSS3,JAVASCRIPT",
+"address" : {
+      "state": "andhrapradesh",
+	  "city":  "nellore",
+	  "country": "india",
+	  "pincode ":	524137 
+	 }
+		 
+		 
+		 }
+		 document.write("<br>"+"STUDENT NAME IS : "+StudentDetails.name +"<br>"+"STUDENT DOB IS : " +StudentDetails.dob
+		 +"<br>"+"STUDENT SKILLS ARE : " +StudentDetails.skills +"<br>"+"STUDENT STATE IS : " +StudentDetails.address.state
+		 +"<br>"+"STUDENT CITY IS : " +StudentDetails.address.city+"<br>" +"STUDENT COUNTRY IS : "+StudentDetails.address.country
+          +"<br>"+"STUDENT PINCODE IS : " +StudentDetails.address.pincode);
+		for( x in StudentDetails){
+		 document.write("<br> "+StudentDetails[x].name  );
+		}
+
+		</script>
+
+</body>
+</html>
